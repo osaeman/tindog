@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+.bg-color {
+  background: #a8ff78; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #78ffd6,
+    #a8ff78
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #78ffd6,
+    #a8ff78
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*------------------------------------------------NAVBAR SECTION----------------------------------------------*/
+
+.nav-item {
+  font-size: 18px;
+}
+
+/* -------------------------------------------MAIN SECTION------------------------------------------- */
+
+.main-section-left {
+  padding: 2% 5% 6%;
+}
+.main-section-left h1 {
+  font-weight: 900;
+  font-size: 53px;
+}
+
+.main-section-right img {
+  width: 50%;
+  transform: rotate(30deg);
+  position: absolute;
+}
+
+/* --------------------------------------------FEATURES SECTION------------------------------------------- */
+/* --------------------------------------------CAROUSEL SECTION------------------------------------------- */
+
+.carousel-img {
+  width: 100px;
+}
+
+.carousel-inner {
+  padding: 3% 17% 7%;
+}
+
+.carousal-imgs-bottom img {
+  width: 13%;
+  margin: 0 2%;
+}
+
+/* --------------------------------------------BANNER SECTION------------------------------------------- */
+.banner-section {
+  padding: 10% 15%;
+}
+
+@media (max-width: 990px) {
+  /* -------------------------------------------MAIN SECTION------------------------------------------- */
+
+  .main-section-right img {
+    width: 30%;
+    transform: rotate(0);
+    position: relative;
+  }
+}
+
+@media (max-width: 768px) {
+  /* --------------------------------------------CAROUSEL SECTION------------------------------------------- */
+  .carousel-img {
+    width: 70px;
+  }
+
+  .carousel-inner {
+    padding: 3% 16% 12%;
+  }
+
+  .carousal-imgs-bottom img {
+    width: 24%;
+    margin: 0 2%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 540px) {
+  /*------------------------------------------------NAVBAR SECTION----------------------------------------------*/
+
+  .nav-item {
+    font-size: 16px;
+  }
+
+  .navbar-toggler {
+    padding: 0.15rem 0.45rem !important;
+    box-shadow: 0 0 0 0 !important;
+  }
+}
